@@ -13,6 +13,7 @@ import reudcers from './reducer'
 import Auth from './Auth'
 import Dashboard from './Dashboard'
 // import reducers from './reducer';
+import config from './config'
 
 //结合chrom中的redux tools插件使用
 //创建store并结合中间件thunk

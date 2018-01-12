@@ -23,10 +23,13 @@ const User = mongoose.model('user',new mongoose.Schema({
 //         console.log(err)
 //     }
 // })
-// User.remove({age:17},function(err,doc){
+// User.remove({user:'xiaoming'},function(err,doc){
 //     console.log(doc)
 // })
-// User.update({'user':'xiaoming'},{'$set':{age:17}},function(err,doc){
+// User.update({user:'xiaoming'},{'$set':{age:17}},function(err,doc){
+//         console.log(doc)
+// })
+// User.update({age:22},{'$set':{age:20}},function(err,doc){
 //         console.log(doc)
 // })
 //新建APP
