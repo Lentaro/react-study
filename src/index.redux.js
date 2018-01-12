@@ -1,7 +1,8 @@
 const ADD = 'add'
 const JIAN = 'jian'
 //reducer
-export function counter (state=0,action){
+export function counter (state=10,action){
+    // console.log(state)
     switch(action.type){
         case ADD:
             return state+1
